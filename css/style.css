@@ -1,0 +1,156 @@
+
+/*coding for the navigation menu bars start here*/
+.logo{
+    height:300px;
+}
+.sm-logo{
+    height:240px;
+}
+a{
+    text-decoration: none !important;
+    color:white;
+}
+ul{
+    list-style-type: none !important;
+}
+.background-img-wrapper{
+    min-height:65vh;
+    background:url("../images/1.jpg");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.bg-image-mask{
+    min-height:65vh;
+    background-color:rgb(0 0 0 / 95%);
+    background-size:100%;
+}
+.lg-nav-mask{
+    background-color:rgb(0 0 0 / 95%);
+}
+/*coding for the navigation menu bars ended here*/
+
+/*coding for the landing section start here*/
+.welcome-caption{
+    font-size:46pt;
+}
+.welcome-sub-caption{
+    color:white;
+    font-size:17pt;
+    margin-top:20px;
+}
+.buttons-wrapper{
+    margin-top:30px;
+}
+.btn{
+    font-weight:bolder;
+    font-family:arial;
+    font-size:12pt;
+}
+.welcome-description{
+    color:#ffffff9e;
+}
+
+@media screen and (max-width:767px){
+    .welcome-caption{
+        font-size:30pt;
+        text-align:center;
+    }
+    .services-wrapper,.portfolio-wrapper{
+        text-align:center;
+    }
+    .lebspa-section div{
+        margin-top:20px;
+    }
+    .background-img-wrapper{
+    min-height:60vh;
+    background:url("../images/4.jpg");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.bg-image-mask{
+    min-height:60vh;
+    background-color:rgb(0 0 0 / 90%);
+    background-size:100%;
+    padding-bottom:60px;
+padding-top:60px;
+}
+.welcome-sub-caption{
+    text-align:center;
+    font-size:13pt;
+}
+.welcome-description{
+    text-align:center;
+    color:#ffffff9e;
+}
+.buttons-wrapper{
+    text-align:center;
+}
+}
+/*coding for the landing section ended here*/
+
+/*coding for services start here*/
+.services-wrapper{
+    padding-top:60px;
+    padding-bottom:80px;
+    border-bottom:solid 2px red;
+}
+.service-image{
+    height:120px;
+}
+
+/*coding for services section ended here*/
+
+/*coding for the portfolio start here*/
+.portfolio-wrapper{
+    padding-top:20px;
+    padding-bottom:80px;
+}
+.row{
+    padding-bottom:80px;
+    padding-top:40px;
+}
+.lebspa-section{
+    background-color:#ecbe1973 !important;
+    border:none !important;
+    margin-top:20px;
+}
+/*coding for the portfolio ended here*/
+
+/*coding for floating action button start here*/
+.floating-action-button-menu{
+    position:fixed;
+    right:-10px;
+    bottom:70px;
+    border-radius:100px;
+    padding:20px;
+    flex-direction:column;
+    display:none;
+}
+.floating-action-button , .btn{
+    border-radius:100px;
+    padding:20px;
+    background-color:rgb(193 54 54 / 91%) !important;
+}
+.floating-action-button{
+    background-color:rgb(193 54 54 / 91%) !important;
+    position:fixed;
+    right:10px;
+    bottom:0px;
+    border-radius:100px;
+    padding:20px;
+    background-color:rgb(193 54 54 / 91%)) !important;
+}
+/*coding for floating action button ended here*/
+
+
+@media screen and (min-width:0px) and (max-width:270px){
+    .welcome-caption{
+        font-size:12pt;
+    }
+    .sm-logo{
+        height:150px;
+    }
+    .view-portfolio{
+        font-size:12pt !important;
+    }
+}
