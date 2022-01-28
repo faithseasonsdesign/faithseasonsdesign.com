@@ -25,6 +25,8 @@
     <meta name="robot" content="index,follow">
     <meta name="DC.title" content="The best web development and graphic design agency / company in South Africa">
 
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/all.min.css">
@@ -151,9 +153,90 @@
     <!--coding for the services section ended here-->
 
     <!--coding for the portfolio section start here-->
-    <div class="container portfolio-wrapper" id="portfolio">
-        <p class="h2">
+
+
+    <!-- Swiper -->
+    <div class="container swiper mySwiper d-lg-none">
+        <p class="h1">
             Portfolio
+        </p>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <div class="row d-flex justify-content-center">
+                <div class="card col-12 col-sm-12 col-md-12 col-lg-6" style="background-color: white !important;border:none;">
+                    <div class="card-image-top">
+                        <img src="images/lebza-removebg.png" class="img-fluid mx-auto" alt="">
+                    </div>
+                    <div class="card-body">
+                        <p class="h3">
+                            Lebs Health And Beauty Spa
+                        </p>
+                        <p>
+                            In 2021 Lebs Health and Beauty spa requested us to design and develop a website for them ,
+                            we designed,developed and delivered it on time as promised 
+                        </p>
+                        <a href="https://www.lebspa.co.za/" class="btn btn-md bg-danger text-white">
+                            Visit Website
+                        </a>
+                    </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="row d-flex justify-content-center">
+                <div class="card col-12 col-sm-12 col-md-12 col-lg-6" style="background-color: white !important;border:none;">
+                    <div class="card-image-top">
+                        <img src="images/construction-removebg-preview.png" class="img-fluid mx-auto" alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="h3">
+                            Brickwall
+                        </p>
+                        <p>
+                            Brick Wall didn't requested us to design and develop a website but we
+                            we designed and developed it to show our latest discovered web design trends
+                            that uses svg shapes because plain websites are boring and null , we dont like 
+                            ordinary we like to stand out
+                        </p>
+                        <a href="https://faithseasonsdesign2021.github.io/faithseasonsdesign/" class="btn btn-md bg-danger text-black" style="background-color:gold !important;">
+                            Visit Website
+                        </a>
+                    </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="row d-flex justify-content-center">
+              <div class="card col-12 col-sm-12 col-md-12 col-lg-6" style="background-color: white !important;border:none;">
+                  <div class="card-image-top">
+                      <img src="images/thuto-removebg-preview.png" class="img-fluid mx-auto" alt="">
+                  </div>
+                  <div class="card-body text-center">
+                      <p class="h3">
+                          Forex Guru
+                      </p>
+                      <p>
+                          Forex Guru requested us to design and develop a website in 2020
+                          we designed,developed and delivered it on time as promised 
+                      </p>
+                      <a href="https://reba1faith26.github.io/forexguru/" class="btn btn-md bg-danger text-white" style="background-color: darkblue !important;">
+                          Visit Website
+                      </a>
+                  </div>
+              </div>
+            </div>
+        </div>
+      
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    <!--coding for swipper slider ended ehre-->
+
+
+    <div class="container portfolio-wrapper d-none d-sm-none d-md-none d-lg-block">
+        <p class="h2">
+             Development Portfolio
         </p>
         <div class="row text-center" style="border-bottom:solid 3px rgb(209, 20, 51)">
             <div class="col-12 col-sm-12 col-md-6">
@@ -184,7 +267,7 @@
                     Forex Guru requested us to design and develop a website in 2020
                     we designed,developed and delivered it on time as promised 
                 </p>
-                <a href="#" class="btn btn-md bg-danger text-white" style="background-color: darkblue !important;">
+                <a href="https://reba1faith26.github.io/forexguru/" class="btn btn-md bg-danger text-white" style="background-color: darkblue !important;">
                     Visit Website
                 </a>
             </div>
@@ -220,11 +303,13 @@
                     that uses svg shapes because plain websites are boring and null , we dont like 
                     ordinary we like to stand out
                 </p>
-                <a href="#" class="btn btn-md bg-danger text-black" style="background-color:gold !important;">
+                <a href="https://faithseasonsdesign2021.github.io/faithseasonsdesign/" class="btn btn-md bg-danger text-black" style="background-color:gold !important;">
                     Visit Website
                 </a>
             </div>
         </div>
+    </div>
+    <div class="container portfolio-wrapper" id="portfolio">
         <div class="row lebspa-section text-center d-flex justify-content-center align-items-center" style="border-bottom:solid 3px rgb(250, 253, 45);background-color: rgb(0 0 0 / 90%);">
             <p class="h1">
                 Lebs Health and Beauty Graphic Package
@@ -242,6 +327,58 @@
         </div>
     </div>
     <!--coding for the portfolio section ended here-->
+
+    <!--coding for the contact me section start here-->
+    <div class="container-fluid contact-wrapper bg-danger">
+        <div class="container text-center">
+            <p class="h6 contact-sub-caption">
+                Get In Touch
+            </p>
+            <p class="h1 contact-caption">
+                Contact Me
+            </p>
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-3x fa-envelope-open-text"></i>
+                            <p class="h5 font-weight-bold" style="margin-top:10px">Email</p>
+                            <p class="h6 font-weight-bold">
+                                reba1faith26@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fab fa-3x fa-whatsapp"></i>
+                            <p class="h5 font-weight-bold" style="margin-top:10px">Whatsapp</p>
+                            <p class="h6 font-weight-bold">
+                                061 675 5634
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fab fa-3x fa-instagram"></i>
+                            <p class="h5 font-weight-bold" style="margin-top:10px">Instagram</p>
+                            <p class="h6 font-weight-bold">
+                                Faith Seasons Design
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--coding for the contact me section ended here-->
+
+
+    <!---coding for swipper-->
 
     <!--coding for the floating action button start here-->
     <div class="floating-button-wrapper">
@@ -270,6 +407,7 @@
     </div>
     <!--coding for the floating action button ended here-->
 
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/style.js"></script>

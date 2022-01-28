@@ -109,6 +109,15 @@ ul{
     .buttons-wrapper{
         text-align:center;
     }
+    .card-body{
+        text-align:center;
+    }
+}
+
+@media screen and (max-width:990px){
+    .col-12{
+        margin-top:20px;
+    }
 }
 /*coding for the landing section ended here*/
 
@@ -178,3 +187,37 @@ ul{
         font-size:12pt !important;
     }
 }
+
+
+/*contact section coding start here*/
+.contact-wrapper{
+    background-color:#080846 !important;
+    color:white;
+    padding-top:80px;
+    padding-bottom:80px;
+}
+.contact-sub-caption{
+    font-size:14pt;
+}
+.card{
+    background-color:#323264;
+    min-height:250px;
+}
+.card-body{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.swiper-slide{
+    min-height:350px;
+}
+.mySwiper{
+    padding-top:40px;
+    padding-bottom:0px;
+}
+/*contact section coding ended here*/
+
+
+
+
