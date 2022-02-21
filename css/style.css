@@ -220,4 +220,20 @@ ul{
 
 
 
+/*bottom navigation bar coding start here*/
+.bottom-nav-bar-wrapper{
+    position:fixed;
+    left:0;right:0;
+    bottom:-80px;
+}
+.grid-item{
+    text-align:center;
+    border-right:solid 1px white;
+    padding-top:20px;padding-bottom:20px;
+    background-color:rgb(193 54 54 / 91%) !important;
+}
+/*bottom navigation bar coding ended here*/
+
+
+
 
